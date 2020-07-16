@@ -1,0 +1,31 @@
+/* works only if above 700px screen */
+@media(min-width:700px) {
+.grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+.content-wrap,#box-b ul{
+    grid-column: 2/4;
+}
+
+
+
+#box-b ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#box-b li{
+    width:31%
+}
+
+#main-footer{
+    display: flex;
+    background:black;
+    color:white;
+    text-align:center;
+    padding-left: 39%;
+    padding-right: 37%;
+}
+
+}

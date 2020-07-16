@@ -1,0 +1,50 @@
+ @import "headerone.css";
+@import "sectionone.css";
+@import "footer.css";
+@import "media.css";
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: black;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,h2,h3 {
+    margin:0;
+    padding: 1em 0;
+    color: red;
+
+}
+
+p {
+    margin:0;
+    padding: 1em 0;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background: inline-block;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 1px solid red;
+    margin: .5em 0;
+    align-items: right;
+}
+
+.btn:hover {
+    background: red;
+    color: white;
+}
